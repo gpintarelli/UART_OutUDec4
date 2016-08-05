@@ -13,3 +13,4 @@ void UART_OutUDec4(unsigned int n){		// n is the input 0 to 9999
 	UARTCharPut(UART0_BASE, 0x30+n);	// ones digit
 	//UARTCharPut( UART0_BASE, '\r' );  //new line
 	//UARTCharPut( UART0_BASE, '\n' );
+}
